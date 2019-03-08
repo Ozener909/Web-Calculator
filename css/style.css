@@ -53,4 +53,11 @@ button {
   border: solid 1px rgba(197, 8, 8, 0.6);
   background-image: linear-gradient(to bottom, #ff6464, #ff6464), linear-gradient(to top, #000000, #ffffff);
 }
-
+.buttons_section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+  
+  
+}
