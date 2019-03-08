@@ -27,6 +27,7 @@
   border: solid 1px #d6d4d8;
   border-radius: 4px;
   background-color: #fafafa;
+  margin-bottom: 18px;
 }
 button {
   cursor: pointer;
@@ -44,6 +45,7 @@ button {
   line-height: 1.5;
   text-align: center;
   color: #524e4f;
+  margin: 5px 0px 5px 0px;
 }
 .red_button {
   color: #ffffff;
@@ -56,8 +58,13 @@ button {
 .buttons_section {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  align-content: space-between;
-  
-  
+
+}
+.flex {
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+}
+#result {
+  height: 88px;
 }
