@@ -2,54 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Web-Calculator">
+  <meta name="keywords" content="Web, project, calculator">
   <title>Web-Calculator</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="calculator_background">
+  <div class="container">
+    <div class="calculator_background">
 
-    <span class="calculator_name">Web-calculator</span>
-    <div class="result_screen"></div>
-    <div class="buttons_section">
+      <span class="calculator_name">Web-calculator</span>
+      <div class="result_screen"></div>
+      <div class="buttons_section">
 
-      <div class="flex">
+        <div class="flex">
 
-        <button id="all_clear" class="red_button">ac</button>
-        <button id="seven">7</button>
-        <button id="four">4</button>
-        <button id="one">1</button>
-        <button id="zero">0</button>
+          <button id="all_clear">ac</button>
+          <button id="seven">7</button>
+          <button id="four">4</button>
+          <button id="one">1</button>
+          <button id="zero">0</button>
 
-      </div>
+        </div>
 
-      <div class="flex">
+        <div class="flex">
 
-          <button id="clear" class="red_button">c</button>
-          <button id="eight">8</button>
-          <button id="five">5</button>
-          <button id="two">2</button>
-          <button id="point">.</button>
+            <button id="clear">c</button>
+            <button id="eight">8</button>
+            <button id="five">5</button>
+            <button id="two">2</button>
+            <button id="point">.</button>
 
-      </div>
+        </div>
 
-      <div class="flex">
+        <div class="flex">
 
-          <button id="percentage">%</button>
-          <button id="nine">9</button>
-          <button id="six">6</button>
-          <button id="three">3</button>
-          <button id="plus">+</button>
+            <button id="percentage">%</button>
+            <button id="nine">9</button>
+            <button id="six">6</button>
+            <button id="three">3</button>
+            <button id="plus">+</button>
 
-      </div>
+        </div>
 
-      <div class="flex">
-          <button id="division">/</button>
-          <button id="multiplication">*</button>
-          <button id="minus">-</button>
-          <button id="result">=</button>
+        <div class="flex">
+            <button id="division">/</button>
+            <button id="multiplication">*</button>
+            <button id="minus">-</button>
+            <button id="result">=</button>
+        </div>
       </div>
     </div>
+    <div class="calculator_title_box">
+      <h1 class="calculator_title">Пример простого калькулятора на JS</h1>
+    </div>
   </div>
+
+  <script src="script/script.js"></script>
+
 </body>
 </html>
