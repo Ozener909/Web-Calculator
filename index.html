@@ -5,52 +5,53 @@
   <meta name="description" content="Web-Calculator">
   <meta name="keywords" content="Web, project, calculator">
   <title>Web-Calculator</title>
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="style" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="container">
-    <div class="calculator_background">
 
-      <span class="calculator_name">Web-calculator</span>
-      <div class="result_screen"><span id = "result_span"></span></div>
+    <div class="calc_box">
+
+      <span class="calc_name">Web-calculator</span>
+      <div class="result_screen"><span id ="result_screen_span">Тест</span></div>
       <div class="buttons_section">
 
-        <div class="flex">
+        <div class="flex_box">
 
-          <button  class="clear"id="all_clear">ac</button>
-          <button  class="number"id="seven">7</button>
-          <button class="number" id="four">4</button>
-          <button class="number" id="one">1</button>
-          <button class="number" id="zero">0</button>
-
-        </div>
-
-        <div class="flex">
-
-            <button class="clear" id="clear">c</button>
-            <button class="number" id="eight">8</button>
-            <button class="number" id="five">5</button>
-            <button class="number" id="two">2</button>
-            <button class="point" id="point">.</button>
+          <button class="btn clear" id="all_clear">ac</button>
+          <button class="btn number" id="seven">7</button>
+          <button class="btn number" id="four">4</button>
+          <button class="btn number" id="one">1</button>
+          <button class="btn number" id="zero">0</button>
 
         </div>
 
-        <div class="flex">
+        <div class="flex_box">
 
-            <button class="operation" id="percentage">%</button>
-            <button class="number" id="nine">9</button>
-            <button class="number" id="six">6</button>
-            <button class="number" id="three">3</button>
-            <button class="operation" id="plus">+</button>
+            <button class="btn clear" id="clear">c</button>
+            <button class="btn number" id="eight">8</button>
+            <button class="btn number" id="five">5</button>
+            <button class="btn number" id="two">2</button>
+            <button class="btn point" id="point">.</button>
 
         </div>
 
-        <div class="flex">
-            <button class="operation" id="division">/</button>
-            <button class="operation" id="multiplication">*</button>
-            <button class="operation" id="minus">-</button>
-            <button class="operation" id="result">=</button>
+        <div class="flex_box">
+
+            <button class="btn operation" id="percentage">%</button>
+            <button class="btn number" id="nine">9</button>
+            <button class="btn number" id="six">6</button>
+            <button class="btn number" id="three">3</button>
+            <button class="btn operation" id="plus">+</button>
+
+        </div>
+
+        <div class="flex_box">
+            <button class="btn operation" id="division">/</button>
+            <button class="btn operation" id="multiplication">*</button>
+            <button class="btn operation" id="minus">-</button>
+            <button class="btn operation" id="result">=</button>
         </div>
       </div>
     </div>
@@ -60,6 +61,5 @@
   </div>
 
   <script src="script/script.js"></script>
-
 </body>
 </html>

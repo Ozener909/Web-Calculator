@@ -1,22 +1,6 @@
-var numbers = document.querySelectorAll(".number"),
+var number = document.querySelectorAll(".number"),
     operation = document.querySelectorAll(".operation"),
     point = document.querySelectorAll(".point"),
-    clear = document.querySelectorAll(".clear");
-console.log(numbers);
-console.log(operation);
-console.log(point);
-console.log(clear);
+    screen = document.querySelectorAll(".result_screen_span");
 
-
-function number(){
-
-};
-function operation(){
-
-};
-function point(){
-
-};
-function Clear(){
-
-};
+console.log(number, operation, point, screen);
