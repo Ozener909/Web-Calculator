@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -23,6 +24,7 @@ body {
   overflow: auto;
 } 
 
+
 .container {
   display: flex;
   justify-content: space-around;
@@ -31,14 +33,12 @@ body {
   height: 100%; 
 }
 
+
 .calc_box{
-  /* width: 319px;
-  height: 413px; */
   border: 1px;
   border-radius: 5px;
   background-color: #efedf0;
   padding: 27px 25px 25px;
- 
 }
 
 .calc_name {
@@ -119,4 +119,10 @@ button:hover {
   font-size: 20px;
   line-height: 1.05;
   color: #efedf0;
+}
+
+@media screen and (max-width:610px) {
+  #container {
+    flex-direction: column;
+  }
 }
