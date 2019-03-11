@@ -1,27 +1,44 @@
 * {
   box-sizing: border-box;
 }
-
-body {
-  background: url(../img/background.jpg) no-repeat;
-  background-size: cover;
+html {
+  background: #6441a5; 
+  background: -webkit-linear-gradient(to right, #6441a5, #2a0845); 
+  background: linear-gradient(to right, #6441a5, #2a0845); 
 }
+body {
+  background: #6441a5; 
+  background: -webkit-linear-gradient(to right, #6441a5, #2a0845); 
+  background: linear-gradient(to right, #6441a5, #2a0845); 
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center; 
+  justify-content: center; 
+  margin: 0;
+  overflow: auto;  
+} 
 
 .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 100px 0px 0px 50px;
-
+  margin: 0 auto;
+  height: 100%;
 }
 
-.calc_box {
+.calc_box{
   width: 319px;
   height: 413px;
   border: 1px;
   border-radius: 5px;
   background-color: #efedf0;
   padding: 27px 25px 25px;
+ 
 }
 
 .calc_name {
@@ -56,11 +73,12 @@ body {
 }
 
 button:hover {
-  background: #663165;
+  background: #6441a5;
   color: #d6d4d8;
 }
 
 .btn {
+  outline: none;
   cursor: pointer;
   width: 56px;
   height: 39px;
