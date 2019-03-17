@@ -3,44 +3,53 @@
   box-sizing: border-box;
 }
 html {
-  background: #6441a5; 
-  background: -webkit-linear-gradient(to right, #6441a5, #2a0845); 
-  background: linear-gradient(to right, #6441a5, #2a0845); 
+  background: #6441a5;
+  background: -webkit-linear-gradient(to right, #6441a5, #2a0845);
+  background: linear-gradient(to right, #6441a5, #2a0845);
 }
 body {
-  background: #6441a5; 
-  background: -webkit-linear-gradient(to right, #6441a5, #2a0845); 
-  background: linear-gradient(to right, #6441a5, #2a0845); 
+  background: #6441a5;
+  background: -webkit-linear-gradient(to right, #6441a5, #2a0845);
+  background: linear-gradient(to right, #6441a5, #2a0845);
   width: 100%;
+  max-width: 1200px;
   height: 100%;
   position: fixed;
   top: 0;
   left: 0;
   display: flex;
   align-items: center;
-  align-content: center; 
-  justify-content: center; 
+  align-content: center;
+  justify-content: center;
   margin: 0;
   overflow: auto;
-} 
-
-
+}
+#display {
+  background:black;
+  border: none;
+  outline:none;
+  color: #f7f7f7;
+  padding-right: 5px;
+  text-align: right;
+  font-family: OpenSans;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.5;
+  max-width: 100%;
+}
 .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
-  height: 100%; 
+  height: 100%;
 }
-
-
 .calc_box{
   border: 1px;
   border-radius: 5px;
   background-color: #efedf0;
   padding: 27px 25px 25px;
 }
-
 .calc_name {
   display: block;
   text-align: center;
@@ -51,7 +60,6 @@ body {
   color: #b1aeac;
   margin-bottom: 27px;
 }
-
 .result_screen {
   display: flex;
   justify-content: flex-end;
@@ -64,19 +72,10 @@ body {
   background-color: black;
   margin-bottom: 18px;
 }
-
-#result_screen_span {
-  display: block;
-  color: #f7f7f7;
-  text-align: right;
-  padding-right: 5px;;
-}
-
 button:hover {
   background: #6441a5;
   color: #d6d4d8;
 }
-
 .btn {
   outline: none;
   cursor: pointer;
@@ -94,22 +93,18 @@ button:hover {
   color: #524e4f;
   margin: 5px 0px 5px 0px;
 }
-
 .buttons_section {
   display: flex;
   justify-content: space-between;
 }
-
 .flex_box {
   width: 56px;
   display: flex;
   flex-direction: column;
 }
-
 #result {
   height: 88px;
 }
-
 .calculator_title_box {
   max-width: 500px;
   display: block;
@@ -120,7 +115,6 @@ button:hover {
   line-height: 1.05;
   color: #efedf0;
 }
-
 @media screen and (max-width:610px) {
   #container {
     flex-direction: column;

@@ -15,12 +15,15 @@
     <div class="calc_box">
 
       <span class="calc_name">Web-calculator</span>
-      <div class="result_screen"><span id ="result_screen_span">Тест</span></div>
+      <div class="result_screen">
+        <input value="0" id="display" type="text" name="" disabled  placeholder="00000000000">
+      </div>
+
       <div class="buttons_section">
 
         <div class="flex_box">
 
-          <button class="btn clear" id="all_clear">ac</button>
+          <button class = " clear btn" id="ac">ac</button>
           <button class="btn number" id="seven">7</button>
           <button class="btn number" id="four">4</button>
           <button class="btn number" id="one">1</button>
@@ -30,11 +33,11 @@
 
         <div class="flex_box">
 
-            <button class="btn clear" id="clear">c</button>
+            <button class = " clear btn" id="c">c</button>
             <button class="btn number" id="eight">8</button>
             <button class="btn number" id="five">5</button>
             <button class="btn number" id="two">2</button>
-            <button class="btn point" id="point">.</button>
+            <button class="btn" id="decimal">.</button>
 
         </div>
 
@@ -52,7 +55,7 @@
             <button class="btn operation" id="division">/</button>
             <button class="btn operation" id="multiplication">*</button>
             <button class="btn operation" id="minus">-</button>
-            <button class="btn operation" id="result">=</button>
+            <button class = "btn operation" id="result">=</button>
         </div>
       </div>
     </div>
